@@ -1,0 +1,83 @@
+.verify-health-id, .auth-modes, .otp-verify, .patient-details, .qr-code-scanner, .alternative-text, .direct-auth, .demo-auth-form-field, .create-healthId{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 25px;
+
+    button {
+        margin: 2px;
+        padding: 3px 10px;
+    }
+
+    label {
+        width: 50%;
+    }
+
+    .verify-health-id-input-btn, .auth-modes-select-btn ,  .otp-verify-input-btn, .create-healthId-btn{
+        width: 50%;
+    }
+
+    .qr-code-scanner, .create-default-healthId {
+        text-align: center;
+    }
+
+    .fetch-patient {
+        margin-left: 35%;
+    }
+
+    .verify-health-id-input, .auth-modes-select , .otp-verify-input, .create-healthId-input{
+        input, select {
+            padding: 2px;
+        }
+        margin-bottom: 10px;
+    }
+
+    .direct-auth-note {
+        margin-left: -60%;
+    }
+
+}
+
+.demo-auth-form-field {
+    .date-picker {
+        width: 100%;
+    }
+
+    .dob-label {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    input, select {
+        padding: 2px;
+        margin-right: 4%;
+    }
+
+    .required-label:after {
+        content:" *";
+        color: red;
+    }
+
+    margin-bottom: 10px;
+}
+
+.error {
+    margin-top: 10px;
+    width: 100%;
+    color: red;
+}
+
+.fetch-abdm-record {
+    margin-top: 5%;
+    margin-left: 35%;
+    button {
+        height: 30px;
+    }
+    .demo-fetch-button {
+        margin-top: 22px;
+    }
+}
+
+.health-id {
+    padding: 10px;
+}

@@ -1,0 +1,268 @@
+.abha-creation {
+  margin-top: 50px;
+  margin-left: 30px;
+
+  .aadhaar, .mobile, .select-option,.abha, .abha-address
+  {
+    display: flex;
+  }
+
+  .abha-creation-otp-verify {
+    display: flex;
+    padding-top: 30px;
+  }
+  .select-option {
+    padding-top: 20px;
+    margin-bottom: 1%;
+  }
+
+  .radio-btn {
+    padding-top: 20px;
+    margin-bottom: 1%;
+  }
+
+  label{
+    width: 40%;
+  }
+
+  .verify-aadhaar-input-btn, .otp-verify-input-btn, .verify-mobile-input-btn, .select-btn, .verify-abha-input-btn {
+    display: flex;
+    width: 60%;
+  }
+
+  .verify-aadhaar-input, .otp-verify-input, .verify-mobile-input, .abha-adddress-input, .select, .verify-abha-input {
+    width: 60%;
+    padding-right: 20px;
+  }
+
+  input, select {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+  }
+
+  .error {
+    margin-left: 40%;
+    color: red;
+    margin-top: 0px;
+  }
+
+  .create-default-healthId {
+    margin-left: 40%;
+    margin-top: 5%
+  }
+}
+
+button {
+  background-color: #88af28;
+  color: white;
+  border: 1px solid #88af28;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-size: medium;
+}
+
+button:hover{
+  opacity: 0.80;
+}
+
+button:active{
+  border: 3px solid #4169e9;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.message {
+  margin-left: 40%;
+  font-size: medium;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.note {
+  text-align: center;
+  font-size: medium;
+  font-style: italic;
+}
+.success {
+  color: #88af28;
+}
+
+.footer{
+   margin-top: 5%;
+}
+
+.back {
+  background: linear-gradient(to bottom, #FFF, #DDD);
+  color: black;
+  border: 2px solid #DDD;
+}
+
+.left-button {
+  margin-top: 20px;
+  float: left
+}
+.right-button {
+  margin-top: 20px;
+  float: right;
+}
+
+.patient-profile{
+  text-align: center;
+}
+
+img {
+  padding-top: 10px;
+}
+
+.confirmation {
+  text-align: center;
+}
+
+.downloadButton {
+  text-align: center;
+  width: 100%;
+}
+
+.create-btn {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.abha-card {
+  text-align: center;
+  width: 100%;
+}
+
+.center{
+  margin-left: 40%;
+}
+
+.create-new-abhaAddress{
+  margin-left: 37%;
+}
+
+.no-right-margin{
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.no-left-margin{
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.abha-creation .abha-address input {
+  width: 85%;
+}
+
+.center {
+  display: flex;
+  .checkbox {
+    width: auto;
+  }
+  .preferred {
+    padding: 8px;
+  }
+}
+
+.abha-list-label {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.abha-list{
+  margin-top: 10px;
+  margin-left: 10%;
+  width: 80%;
+  height: 10%;
+  background: linear-gradient(to bottom, #FFF, #DDD);
+  color: black;
+  border: 2px solid #DDD;
+
+  :active {
+    opacity: 0.3;
+  }
+}
+
+.active {
+  margin-left: 10%;
+  width: 80%;
+  height: 10%;
+  background: linear-gradient(to bottom, #DDD, #DDD);
+  color: black;
+  border: 3px solid #4169e9;
+}
+
+
+.error-msg {
+  text-align: center;
+  color: red;
+}
+
+.new-abha-address-input {
+  display: flex;
+}
+
+.abha-address-suffix{
+  padding: 4px;
+  border: 1px solid #696666;
+}
+
+.no-abha-address {
+  padding-bottom: 5%;
+}
+
+.ButtonGroup {
+  display: flex;
+}
+
+.consent-input {
+  display: flex;
+  .consent-checkbox {
+    width: auto;
+  }
+  .consent {
+    padding: 8px;
+    text-align: justify;
+  }
+}
+
+.consent-screen {
+  background-color: rgb(249, 250, 252);
+  padding: 16px;
+  margin-top: 8px;
+  border-radius: 5px;
+  max-height: 250px;
+  overflow: auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+
+  input[type = text]{
+    width: auto;
+    height: auto;
+  }
+  input[type = text]:focus:invalid {
+      outline: 2px solid red;
+      border-radius: 1px;
+    }
+}
+
+.consent-screen::-webkit-scrollbar {
+  -webkit-appearance: none;
+   width: 11px;
+}
+
+.consent-screen::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.sub-consent-input {
+  padding-left: 5%;
+}

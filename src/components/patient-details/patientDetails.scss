@@ -1,0 +1,83 @@
+.patient-details {
+    table {
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 6px;
+        word-wrap: break-word;
+    }
+}
+
+.matching-patients {
+    margin-top: 20px;
+}
+.create-confirm-btns {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    button {
+        margin: 2px;
+        padding: 3px 10px;
+    }
+}
+.matched-record-note {
+    font-size: 14px;
+}
+
+.matching-patient {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px dashed grey;
+    background: #f3f3f3;
+    font-size: 15px;
+    color: black;
+}
+
+.matching-patient:active{
+    box-shadow: 0 0 30px grey inset;
+}
+
+.popup {
+    position: fixed;
+    top: 40%;
+    left: 15%;
+    border-radius: 4px;
+    .popup-content {
+        padding: 40px;
+        word-wrap: break-word;
+    }
+    width: 75%;
+    background: white;
+    box-shadow: 0 0 10px grey inset;
+}
+
+
+.close {
+   float: right;
+   font-size: x-large;
+   border: none;
+}
+
+.warning {
+    color: red;
+    padding-left: 10px;
+    position: relative;
+}
+
+.greyed-out {
+    opacity: 0.5;
+}
+
+.abha-card {
+    padding-bottom: 20px;
+}
+
+
+
+
