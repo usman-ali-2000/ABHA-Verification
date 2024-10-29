@@ -9,7 +9,7 @@ import {cmSuffixProperty} from '../src/api/constants';
 
 
 function App() {
-    const params  =  Object.fromEntries(
+    const params = Object.fromEntries(
     new URLSearchParams(window.location.search)
   );
 
